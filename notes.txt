@@ -1,0 +1,60 @@
+
+JUNIT
+
+download java 7
+set path upto bin
+javahome-upto jdk
+junit_home-path where junit jar is stored'
+classpath=%CLASSPATH%,%JUNIT_HOME%\junit4.13.2.jar;.;
+
+
+type the java code and save it with similar class name
+type the test code:
+import junit.framework.TestCase
+public class class-name extends TestCase
+object creation
+public void testfile(par){
+ super(name);
+}
+public void new method()
+{
+assertEquals(call the method(object.methodname(par)))
+
+
+open a command prompt
+go to the directory where your code is present '
+type javac calculator.java claculatortest.java
+java junit.textui.TestRunner calculatortest
+
+enter 
+
+
+
+JENKINS
+git hub repository
+-git init
+-git status
+git add .
+git status
+
+
+git config-- global user email "veddds05@gmail.com"
+git config-- global user.name "Vedika@05"
+
+git commit -m "added pattern program"
+git remote add origin "url(gitrepo)"
+git push -u origin master
+
+
+jenkins
+-go to configure-source code management -slect git-repository url copy
+
+build code
+click add build stop-slect execute windows batch command
+
+javac filename.java
+java filename
+
+click apply and save button
+click on build now option
+
